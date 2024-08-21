@@ -47,12 +47,14 @@ export default function Project({
               </li>
             ))}
           </ul>
-          <div className="pt-2 flex items-center text-blue-900 ">
-            <a href="https://movienightfe.onrender.com" target="_blank">
-              checkout website
-            </a>
-            <FaShare className="ml-2" />
-          </div>
+          {title === "Movie Night" && (
+            <div className="pt-2 flex items-center underline">
+              <a href="https://movienightfe.onrender.com" target="_blank">
+                checkout website
+              </a>
+              <FaShare className="ml-2" />
+            </div>
+          )}
         </div>
 
         <Image
