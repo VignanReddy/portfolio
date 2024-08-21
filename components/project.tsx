@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaShare } from "react-icons/fa6";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -46,6 +47,12 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="pt-2 flex items-center text-blue-900 ">
+            <a href="https://movienightfe.onrender.com" target="_blank">
+              checkout website
+            </a>
+            <FaShare className="ml-2" />
+          </div>
         </div>
 
         <Image

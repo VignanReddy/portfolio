@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Import Hub",
     location: "Los Angeles, USA",
     description:
-      "Volunteered to work on interview epxerience sharing platform. Designed database schemas, led a team of three on crafting restful APIs using node js Express framework.",
+      "Volunteered to work on interview experience sharing platform. Designed database schemas, led a team of three on crafting restful APIs using node js Express framework.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
